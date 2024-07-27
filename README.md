@@ -68,5 +68,20 @@ Una vez que Docker Compose esté instalado, sigue estos pasos para iniciar los s
 
 1. **Clonar el Repositorio**:
    ```sh
-   git clone https://github.com/tuusuario/e-commerce-platform.git
-   cd e-commerce-platform
+   git clone https://github.com/rcglezreyes/pi_tema2.git
+   cd pi_tema2
+   ```
+2. **Ejecución del sistema**:
+
+Para levantar el sistema en ambiente docker solo tiene que ejecutar este comando desde la carpeta de la aplicación:
+   ```sh
+   docker-compose up -d --build
+   ```
+Para detener el servicio:
+   ```sh
+   docker-compose down
+   ```
+
+3. **Descripción del sistema**
+
+

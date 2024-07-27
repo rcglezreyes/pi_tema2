@@ -11,7 +11,7 @@
     - [Linux](#linux)
 - [Ejecutar los Servicios](#ejecutar-los-servicios)
 - [Estructura del Proyecto](#estructura-del-proyecto)
-- [Descripción del Proyecto](#descripcion-del-proyecto)
+- [Descripción del Proyecto](#descripción-del-proyecto)
 
 ## Instalación
 
@@ -83,21 +83,7 @@ Para detener el servicio:
 
 ## Estructura del proyecto
 
-PI_TEMA2/
-│
-├── frontend/
-│   ├── css/
-│   │   └── styles.css
-│   ├── media/
-│   │   └── images/
-│   │       └── logo3.jpg
-│   └── scripts/
-├── contact.html
-├── index.html
-├── .gitignore
-├── docker-compose.yml
-├── Dockerfile
-└── README.md
+![Estructura](frontend/media/images/estructura.png)
 
 En la carpeta ```scripts``` están los script de JS
 

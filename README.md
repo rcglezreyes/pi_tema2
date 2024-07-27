@@ -80,6 +80,10 @@ Para detener el servicio:
    ```sh
    docker-compose down
    ```
+Finalmente accediendo a la URL: ```http://127.0.0.1:8080/``` o ```http://127.0.0.1:8080/index.html``` puede levantar la aplicación en ambiente docker
+
+3. **Ejecución del sistema (sin usar Docker)**:
+Puede igual ir directo a la carpeta del repositorio descargado, dentro de esta a la subcarpeta ```frontend``` y dar doble click en el archivo ```index.html```, y levantará la aplicación en ambiente local.
 
 ## Estructura del proyecto
 
@@ -89,6 +93,17 @@ En la carpeta ```scripts``` están los script de JS
 
 ## Descripción del proyecto
 
+![Pagina de Inicio](frontend/media/images/pag_inicio.png)
+Esta es nuestra página de inicio ```index.html```, cuenta con varias opciones, tanto en el menú lateral, como en el superior.
 
+![Pagina en Construccion](frontend/media/images/pag_construccion.png)
+Se ha usado la librería Swal2 de JS para mostrar aquellos links que todavía no tienen html diseñado.
 
+![Pagina de Contactos](frontend/media/images/pag_contactos.png)
+Se muestra un formulario de HTML con Bootstrap para salvar los datos del contacto
 
+![Ejemplos de validaciones (1)](frontend/media/images/pag_validacion1.png)
+Se ha construido un formulario estilo dropdown para el login, aqui vemos el ejemplo de los mensajes de error luego de la validación usando la librería de JQuery Validator
+
+![Ejemplos de validaciones (2)](frontend/media/images/pag_validacion2.png)
+Otro ejemplo de validaciones de campos de formularios usando la misma librería

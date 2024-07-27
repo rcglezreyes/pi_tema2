@@ -11,6 +11,7 @@
     - [Linux](#linux)
 - [Ejecutar los Servicios](#ejecutar-los-servicios)
 - [Estructura del Proyecto](#estructura-del-proyecto)
+- [Tecnologías usadas](#tecnologías-usadas)
 - [Descripción del Proyecto](#descripción-del-proyecto)
 
 ## Instalación
@@ -90,6 +91,13 @@ Puede igual ir directo a la carpeta del repositorio descargado, dentro de esta a
 ![Estructura](frontend/media/images/estructura.png)
 
 En la carpeta ```scripts``` están los script de JS
+
+## Tecnologías usadas
+
+Lenguajes de Programación: HTML5 y Javascript
+Estilos: CSS
+Frameworks y LIbrerías: Bootstrap 4.5, JQuery 3.5, Jquery Validator, Sweetalert (Swal)
+
 
 ## Descripción del proyecto
 
